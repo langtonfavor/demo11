@@ -51,7 +51,7 @@ class App extends Component {
                 {this.state.token && (
                   <Route path="/booking" component={BookingPage} />
                 )}
-                <Route path />
+                <Route />
               </Switch>
             </main>
           </authContext.Provider>
